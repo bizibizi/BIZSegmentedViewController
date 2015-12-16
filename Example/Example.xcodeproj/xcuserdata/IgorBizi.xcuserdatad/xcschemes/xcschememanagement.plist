@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>ExampleBIZNavigationSegmentBarViewController.xcscheme</key>
+		<key>Example.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>7EACDE171C1C9352003E5C9B</key>
+		<key>7E2236F71C219941008DB11A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

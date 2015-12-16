@@ -1,12 +1,12 @@
 //
-//  BIZNavigationSegmentBarViewController.m
+//  BIZSegmentedViewController.m
 //  IgorBizi@mail.ru
 //
 //  Created by IgorBizi@mail.ru on 4/29/15.
 //  Copyright (c) 2015 IgorBizi@mail.ru. All rights reserved.
 //
 
-#import "BIZNavigationSegmentBarViewController.h"
+#import "BIZSegmentedViewController.h"
 #import "UINavigationBar+ShadowColor.h"
 
 
@@ -14,11 +14,9 @@
 #define k_INDEX_INITIAL -1
 
 
-@interface BIZNavigationSegmentBarViewController ()
+@interface BIZSegmentedViewController ()
 // * subviews
 @property (weak, nonatomic) IBOutlet UIView *segmentView;
-@property (weak, nonatomic) IBOutlet UILabel *titleAtIndex0;
-@property (weak, nonatomic) IBOutlet UILabel *titleAtIndex1;
 @property (weak, nonatomic) IBOutlet UILabel *selectionAtIndex0_placeholder;
 @property (weak, nonatomic) IBOutlet UILabel *selectionAtIndex1_placeholder;
 @property (weak, nonatomic) IBOutlet UIButton *buttonAtIndex0;
@@ -31,7 +29,7 @@
 @end
 
 
-@implementation BIZNavigationSegmentBarViewController
+@implementation BIZSegmentedViewController
 
 
 - (UIRectEdge)edgesForExtendedLayout
@@ -97,18 +95,9 @@
 }
 
 - (void)customization
-{
-    [self.navigationController.navigationBar setBottomBorderColor:[UIColor whiteColor] height:1];
-    
+{    
     self.navigationController.navigationBar.translucent = NO;
-    self.segmentView.backgroundColor = self.navigationController.navigationBar.barTintColor;
-    self.containerView.backgroundColor = [UIColor blackColor];
-    
-    self.titleAtIndex0.text = [[self titlesForSections] firstObject];
-    self.titleAtIndex1.text = [[self titlesForSections] lastObject];
-    
-    self.titleAtIndex0.textColor = [UIColor whiteColor];
-    self.titleAtIndex1.textColor = [UIColor whiteColor];
+    self.containerView.backgroundColor = [UIColor clearColor];
     
     self.selectionAtIndex0_placeholder.hidden = YES;
     self.selectionAtIndex1_placeholder.hidden = YES;
@@ -151,8 +140,12 @@
     
     [self layoutSelectionViewForSelectedIndex:self.indexForSelectedSection];
     [self layoutChildViewControllers];
-    [self.navigationController.navigationBar setBottomBorderColor:[UIColor whiteColor] height:1];
 
+    UIColor *color = [self.navigationController.navigationBar.barTintColor colorWithAlphaComponent:0.95];
+    [self.buttonAtIndex0 setBackgroundColor:color];
+    [self.buttonAtIndex1 setBackgroundColor:color];
+    
+    [self.navigationController.navigationBar setBottomBorderColor:color height:1];
 }
 
 // * Set size of ChildViewControllers as size of containerView

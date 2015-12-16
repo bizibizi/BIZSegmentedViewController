@@ -1,23 +1,23 @@
 //
-//  BIZNavigationSegmentBarViewControllerExtra.m
+//  BIZSegmentedViewControllerExtra.m
 //  IgorBizi@mail.ru
 //
 //  Created by IgorBizi@mail.ru on 5/20/15.
 //  Copyright (c) 2015 IgorBizi@mail.ru. All rights reserved.
 //
 
-#import "BIZNavigationSegmentBarViewControllerExtra.h"
+#import "BIZSegmentedViewControllerExtra.h"
 
 
 #define k_animationTime 0.5
 
 
-@interface BIZNavigationSegmentBarViewControllerExtra ()
+@interface BIZSegmentedViewControllerExtra ()
 @property (nonatomic, getter=isTransitionInProgress) BOOL transitionInProgress;
 @end
 
 
-@implementation BIZNavigationSegmentBarViewControllerExtra
+@implementation BIZSegmentedViewControllerExtra
 
 
 #pragma mark - Abstract class

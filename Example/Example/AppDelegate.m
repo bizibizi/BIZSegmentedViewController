@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  ExampleBIZNavigationSegmentBarViewController
+//  Example
 //
-//  Created by IgorBizi@mail.ru on 12/12/15.
+//  Created by IgorBizi@mail.ru on 12/16/15.
 //  Copyright © 2015 IgorBizi@mail.ru. All rights reserved.
 //
 
@@ -21,13 +21,13 @@
 {
     UIWindow *window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window = window;
-
-    ContainerViewController *containerViewController = [[ContainerViewController alloc] initWithNibName:@"BIZNavigationSegmentBarViewController" bundle:nil];
+    
+    ContainerViewController *containerViewController = [[ContainerViewController alloc] initWithNibName:@"BIZSegmentedViewController" bundle:nil];
     UINavigationController *nvc = [[UINavigationController alloc] initWithRootViewController:containerViewController];
-
+    
     self.window.rootViewController =  nvc;
     [self.window makeKeyAndVisible];
-
+    
     return YES;
 }
 

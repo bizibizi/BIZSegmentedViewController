@@ -49,13 +49,14 @@
 {
     [super viewDidLoad];
     
+    self.navigationController.navigationBar.barTintColor = [UIColor colorWithWhite:0.8 alpha:0.1];
 }
 
 - (void)setup
 {
     [super setup];
     
-    self.title = @"BIZNavigationSegmentBar";
+    self.title = @"Example";
     UIBarButtonItem *barButton = [[UIBarButtonItem alloc] initWithTitle:@"Extra" style:UIBarButtonItemStylePlain target:self action:@selector(extraButtonAction)];
     self.navigationItem.rightBarButtonItem = barButton;
 }

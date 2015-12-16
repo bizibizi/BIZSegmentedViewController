@@ -6,11 +6,11 @@
 //  Copyright © 2015 IgorBizi@mail.ru. All rights reserved.
 //
 
-#import "BIZNavigationSegmentBarViewControllerExtra.h"
+#import "BIZSegmentedViewControllerExtra.h"
 
 
-// * Initialization View from BIZNavigationSegmentBarViewController.xib
+// * Initialization View from BIZSegmentedViewController.xib
 // * VC with 2 segments that present other VCs
-@interface ContainerViewController : BIZNavigationSegmentBarViewControllerExtra
+@interface ContainerViewController : BIZSegmentedViewControllerExtra
 
 @end

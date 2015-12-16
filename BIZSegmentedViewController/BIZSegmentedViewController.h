@@ -1,5 +1,5 @@
 //
-//  BIZNavigationSegmentBarViewController.h
+//  BIZSegmentedViewController.h
 //  IgorBizi@mail.ru
 //
 //  Created by IgorBizi@mail.ru on 4/29/15.
@@ -12,7 +12,7 @@
 // * ABSTRACT CLASS
 // * Root class for VC's with 2 selection segments below navigation bar
 // * Need to use with Custom NavigationBar to avoid the navigationBar items to steal the touches
-@interface BIZNavigationSegmentBarViewController : UIViewController
+@interface BIZSegmentedViewController : UIViewController
 
 // * Must implement
 - (NSArray *)titlesForSections;

@@ -1,19 +1,19 @@
 //
-//  BIZNavigationSegmentBarViewControllerExtra.h
+//  BIZSegmentedViewControllerExtra.h
 //  IgorBizi@mail.ru
 //
 //  Created by IgorBizi@mail.ru on 5/20/15.
 //  Copyright (c) 2015 IgorBizi@mail.ru. All rights reserved.
 //
 
-#import "BIZNavigationSegmentBarViewController.h"
+#import "BIZSegmentedViewController.h"
 
 
-// * Extension for BIZNavigationSegmentBarViewController that adds extra ViewControllers
+// * Extension for BIZSegmentedViewController that adds extra ViewControllers
 // * It had 2 modes with different ViewControllers
 // * Mode can be changed with changing property 'inAdditionalMode'
 // * Sample of using is NearbyViewController
-@interface BIZNavigationSegmentBarViewControllerExtra : BIZNavigationSegmentBarViewController
+@interface BIZSegmentedViewControllerExtra : BIZSegmentedViewController
 
 // * Must Implement
 // * Additional ViewControllers
