@@ -23,7 +23,7 @@
 #pragma mark - Abstract class
 
 
-- (NSArray *)viewControllersForSectionsInAdditionalMode
+- (NSArray *)viewControllersForSectionsInExtraMode
 {
     NSLog(@"Error: Must implement abstract methods");
     return nil;
@@ -42,9 +42,9 @@
 {
     [super assignViewControllersForSections];
     
-    if ([self viewControllersForSectionsInAdditionalMode])
+    if ([self viewControllersForSectionsInExtraMode])
     {
-        [self addChildViewControllersFromArray:[self viewControllersForSectionsInAdditionalMode]];
+        [self addChildViewControllersFromArray:[self viewControllersForSectionsInExtraMode]];
     }
 }
 
@@ -99,11 +99,11 @@
     if (self.indexForSelectedSection == 2 ||
         self.indexForSelectedSection == 3)
     {
-        self.indexForSelectedSection -= [self viewControllersForSectionsInAdditionalMode].count;
+        self.indexForSelectedSection -= [self viewControllersForSectionsInExtraMode].count;
     } else if (self.indexForSelectedSection == 0 ||
                self.indexForSelectedSection == 1)
     {
-        self.indexForSelectedSection += [self viewControllersForSectionsInAdditionalMode].count;
+        self.indexForSelectedSection += [self viewControllersForSectionsInExtraMode].count;
     }
     
     [self transitionInOutAdditionalMode];

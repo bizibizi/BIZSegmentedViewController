@@ -102,8 +102,11 @@
     self.selectionAtIndex0_placeholder.hidden = YES;
     self.selectionAtIndex1_placeholder.hidden = YES;
     
-    [self.buttonAtIndex0 setTitle:@"Left" forState:UIControlStateNormal];
-    [self.buttonAtIndex1 setTitle:@"Right" forState:UIControlStateNormal];
+    NSArray *buttons = @[ self.buttonAtIndex0, self.buttonAtIndex1 ];
+    for (NSInteger i = 0; i < 2; i++)
+    {
+        [buttons[i] setTitle:[self titlesForSections][i] forState:UIControlStateNormal];
+    }
 }
 
 - (void)assignViewControllersForSections

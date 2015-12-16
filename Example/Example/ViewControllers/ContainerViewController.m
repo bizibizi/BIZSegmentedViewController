@@ -33,7 +33,7 @@
     return @[vc1, vc2];
 }
 
-- (NSArray *)viewControllersForSectionsInAdditionalMode
+- (NSArray *)viewControllersForSectionsInExtraMode
 {
     ViewController3 *vc3 = [[ViewController3 alloc] initWithNibName:@"ViewController3" bundle:nil];
     ViewController4 *vc4 = [[ViewController4 alloc] initWithNibName:@"ViewController4" bundle:nil];
@@ -45,23 +45,18 @@
 #pragma mark - LifeCycle
 
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-    
-    self.navigationController.navigationBar.barTintColor = [UIColor colorWithWhite:0.8 alpha:0.1];
-}
-
 - (void)setup
 {
     [super setup];
     
+    self.navigationController.navigationBar.barTintColor = [UIColor colorWithWhite:0.8 alpha:0.1];
+
     self.title = @"Example";
-    UIBarButtonItem *barButton = [[UIBarButtonItem alloc] initWithTitle:@"Extra" style:UIBarButtonItemStylePlain target:self action:@selector(extraButtonAction)];
+    UIBarButtonItem *barButton = [[UIBarButtonItem alloc] initWithTitle:@"Extra" style:UIBarButtonItemStylePlain target:self action:@selector(extraButtonAction:)];
     self.navigationItem.rightBarButtonItem = barButton;
 }
 
-- (void)extraButtonAction
+- (void)extraButtonAction:(UIBarButtonItem *)sender
 {
     self.inAdditionalMode = !self.inAdditionalMode;
 }
