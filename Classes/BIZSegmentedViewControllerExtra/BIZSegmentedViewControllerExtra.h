@@ -17,7 +17,7 @@
 
 // * Must Implement
 // * Additional ViewControllers
-- (NSArray *)viewControllersForSectionsInAdditionalMode;
+- (NSArray *)viewControllersForSectionsInExtraMode;
 
 // * Must Implement if need to start with definite Mode
 - (BOOL)activateAdditionalModeAtStartup;

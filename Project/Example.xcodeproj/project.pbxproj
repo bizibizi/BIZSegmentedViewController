@@ -20,10 +20,10 @@
 		7E7182391C21A5380071E7ED /* ViewController3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E71822F1C21A5380071E7ED /* ViewController3.xib */; settings = {ASSET_TAGS = (); }; };
 		7E71823A1C21A5380071E7ED /* ViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7182311C21A5380071E7ED /* ViewController4.m */; settings = {ASSET_TAGS = (); }; };
 		7E71823B1C21A5380071E7ED /* ViewController4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E7182321C21A5380071E7ED /* ViewController4.xib */; settings = {ASSET_TAGS = (); }; };
-		7E7182461C21AB4D0071E7ED /* BIZSegmentedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7182411C21AB4D0071E7ED /* BIZSegmentedViewController.m */; settings = {ASSET_TAGS = (); }; };
-		7E7182471C21AB4D0071E7ED /* BIZSegmentedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E7182421C21AB4D0071E7ED /* BIZSegmentedViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		7E7182481C21AB4D0071E7ED /* UINavigationBar+ShadowColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7182441C21AB4D0071E7ED /* UINavigationBar+ShadowColor.m */; settings = {ASSET_TAGS = (); }; };
-		7E7182501C21ABFF0071E7ED /* BIZSegmentedViewControllerExtra.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E71824F1C21ABFF0071E7ED /* BIZSegmentedViewControllerExtra.m */; settings = {ASSET_TAGS = (); }; };
+		7EAE9A661C3B64D1003BAE5C /* BIZSegmentedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAE9A5F1C3B64D1003BAE5C /* BIZSegmentedViewController.m */; settings = {ASSET_TAGS = (); }; };
+		7EAE9A671C3B64D1003BAE5C /* BIZSegmentedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EAE9A601C3B64D1003BAE5C /* BIZSegmentedViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		7EAE9A681C3B64D1003BAE5C /* BIZSegmentedViewControllerExtra.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAE9A631C3B64D1003BAE5C /* BIZSegmentedViewControllerExtra.m */; settings = {ASSET_TAGS = (); }; };
+		7EAE9A691C3B64D1003BAE5C /* UINavigationBar+ShadowColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAE9A651C3B64D1003BAE5C /* UINavigationBar+ShadowColor.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,13 +48,13 @@
 		7E7182301C21A5380071E7ED /* ViewController4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController4.h; sourceTree = "<group>"; };
 		7E7182311C21A5380071E7ED /* ViewController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController4.m; sourceTree = "<group>"; };
 		7E7182321C21A5380071E7ED /* ViewController4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController4.xib; sourceTree = "<group>"; };
-		7E7182401C21AB4D0071E7ED /* BIZSegmentedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIZSegmentedViewController.h; sourceTree = "<group>"; };
-		7E7182411C21AB4D0071E7ED /* BIZSegmentedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIZSegmentedViewController.m; sourceTree = "<group>"; };
-		7E7182421C21AB4D0071E7ED /* BIZSegmentedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIZSegmentedViewController.xib; sourceTree = "<group>"; };
-		7E7182431C21AB4D0071E7ED /* UINavigationBar+ShadowColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+ShadowColor.h"; sourceTree = "<group>"; };
-		7E7182441C21AB4D0071E7ED /* UINavigationBar+ShadowColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+ShadowColor.m"; sourceTree = "<group>"; };
-		7E71824E1C21ABFF0071E7ED /* BIZSegmentedViewControllerExtra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIZSegmentedViewControllerExtra.h; sourceTree = "<group>"; };
-		7E71824F1C21ABFF0071E7ED /* BIZSegmentedViewControllerExtra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIZSegmentedViewControllerExtra.m; sourceTree = "<group>"; };
+		7EAE9A5E1C3B64D1003BAE5C /* BIZSegmentedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIZSegmentedViewController.h; sourceTree = "<group>"; };
+		7EAE9A5F1C3B64D1003BAE5C /* BIZSegmentedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIZSegmentedViewController.m; sourceTree = "<group>"; };
+		7EAE9A601C3B64D1003BAE5C /* BIZSegmentedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIZSegmentedViewController.xib; sourceTree = "<group>"; };
+		7EAE9A621C3B64D1003BAE5C /* BIZSegmentedViewControllerExtra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIZSegmentedViewControllerExtra.h; sourceTree = "<group>"; };
+		7EAE9A631C3B64D1003BAE5C /* BIZSegmentedViewControllerExtra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIZSegmentedViewControllerExtra.m; sourceTree = "<group>"; };
+		7EAE9A641C3B64D1003BAE5C /* UINavigationBar+ShadowColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+ShadowColor.h"; sourceTree = "<group>"; };
+		7EAE9A651C3B64D1003BAE5C /* UINavigationBar+ShadowColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+ShadowColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +71,7 @@
 		7E2236EF1C219941008DB11A = {
 			isa = PBXGroup;
 			children = (
-				7E71823C1C21AB4D0071E7ED /* BIZSegmentedViewController */,
+				7EAE9A5D1C3B64D1003BAE5C /* Classes */,
 				7E2236FA1C219941008DB11A /* Example */,
 				7E2236F91C219941008DB11A /* Products */,
 			);
@@ -128,25 +128,25 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
-		7E71823C1C21AB4D0071E7ED /* BIZSegmentedViewController */ = {
+		7EAE9A5D1C3B64D1003BAE5C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7E71824D1C21ABFF0071E7ED /* BIZSegmentedViewControllerExtra */,
-				7E7182401C21AB4D0071E7ED /* BIZSegmentedViewController.h */,
-				7E7182411C21AB4D0071E7ED /* BIZSegmentedViewController.m */,
-				7E7182421C21AB4D0071E7ED /* BIZSegmentedViewController.xib */,
-				7E7182431C21AB4D0071E7ED /* UINavigationBar+ShadowColor.h */,
-				7E7182441C21AB4D0071E7ED /* UINavigationBar+ShadowColor.m */,
+				7EAE9A5E1C3B64D1003BAE5C /* BIZSegmentedViewController.h */,
+				7EAE9A5F1C3B64D1003BAE5C /* BIZSegmentedViewController.m */,
+				7EAE9A601C3B64D1003BAE5C /* BIZSegmentedViewController.xib */,
+				7EAE9A611C3B64D1003BAE5C /* BIZSegmentedViewControllerExtra */,
+				7EAE9A641C3B64D1003BAE5C /* UINavigationBar+ShadowColor.h */,
+				7EAE9A651C3B64D1003BAE5C /* UINavigationBar+ShadowColor.m */,
 			);
-			name = BIZSegmentedViewController;
-			path = ../BIZSegmentedViewController;
+			name = Classes;
+			path = ../Classes;
 			sourceTree = "<group>";
 		};
-		7E71824D1C21ABFF0071E7ED /* BIZSegmentedViewControllerExtra */ = {
+		7EAE9A611C3B64D1003BAE5C /* BIZSegmentedViewControllerExtra */ = {
 			isa = PBXGroup;
 			children = (
-				7E71824E1C21ABFF0071E7ED /* BIZSegmentedViewControllerExtra.h */,
-				7E71824F1C21ABFF0071E7ED /* BIZSegmentedViewControllerExtra.m */,
+				7EAE9A621C3B64D1003BAE5C /* BIZSegmentedViewControllerExtra.h */,
+				7EAE9A631C3B64D1003BAE5C /* BIZSegmentedViewControllerExtra.m */,
 			);
 			path = BIZSegmentedViewControllerExtra;
 			sourceTree = "<group>";
@@ -212,9 +212,9 @@
 				7E7182371C21A5380071E7ED /* ViewController2.xib in Resources */,
 				7E7182351C21A5380071E7ED /* ViewController1.xib in Resources */,
 				7E22370B1C219941008DB11A /* LaunchScreen.storyboard in Resources */,
+				7EAE9A671C3B64D1003BAE5C /* BIZSegmentedViewController.xib in Resources */,
 				7E71823B1C21A5380071E7ED /* ViewController4.xib in Resources */,
 				7E2237081C219941008DB11A /* Assets.xcassets in Resources */,
-				7E7182471C21AB4D0071E7ED /* BIZSegmentedViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,13 +228,13 @@
 				7E71823A1C21A5380071E7ED /* ViewController4.m in Sources */,
 				7E7182341C21A5380071E7ED /* ViewController1.m in Sources */,
 				7E7182381C21A5380071E7ED /* ViewController3.m in Sources */,
-				7E7182481C21AB4D0071E7ED /* UINavigationBar+ShadowColor.m in Sources */,
 				7E2237001C219941008DB11A /* AppDelegate.m in Sources */,
 				7E7182331C21A5380071E7ED /* ContainerViewController.m in Sources */,
-				7E7182461C21AB4D0071E7ED /* BIZSegmentedViewController.m in Sources */,
 				7E7182361C21A5380071E7ED /* ViewController2.m in Sources */,
+				7EAE9A681C3B64D1003BAE5C /* BIZSegmentedViewControllerExtra.m in Sources */,
+				7EAE9A691C3B64D1003BAE5C /* UINavigationBar+ShadowColor.m in Sources */,
 				7E2236FD1C219941008DB11A /* main.m in Sources */,
-				7E7182501C21ABFF0071E7ED /* BIZSegmentedViewControllerExtra.m in Sources */,
+				7EAE9A661C3B64D1003BAE5C /* BIZSegmentedViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
