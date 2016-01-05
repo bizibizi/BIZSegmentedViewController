@@ -11,7 +11,12 @@ BIZSegmentedViewController is a class that creates container with 2 or 4 UIViewC
 # Installation
 
 ### Manually
- - Copy ```BIZSegmentedViewController``` folder to your project 
+- Copy ```Classes``` folder to your project 
+
+### From CocoaPods:
+```objective-c
+pod 'BIZSegmentedViewController' 
+```
 
 
 # Usage
